@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.saloni{
+display: flex;
+}
+nav li:hover::after{
+   width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    /* padding: 10px 30px; */
+}
+nav img{
+    height: 8vh;
+    margin: 20px;
+}
+.home{
+    color: rgb(244, 139, 10);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    display: flex;
+}
+nav .button{
+    cursor: pointer;
+
+}
+header ul:hover{
+    cursor: pointer;
+    border: yellow;
+}
+li{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.button{
+    background-color:  darkorange;
+    color: white;
+    border: none;
+    font-size: 20px;
+    height: 5vh;
+    margin: 50px;
+    padding:10px ;
+    border-radius: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.main{
+    height: 80vh;
+    width: 600px;
+    background-color: rgb(248, 220, 224);
+    border-radius: 40px;
+    margin: 30px;  
+}
+.first{
+    background-color: white;
+    height: 45vh;
+    width: 250px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border-radius: 20px;
+
+}
+.button2{
+    border: 2px solid black;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.button2:hover{
+        cursor: pointer;
+    }
+.solution{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.quickly{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(104, 104, 104);
+}
+.first p{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.para{
+    position: relative;
+    top: -70px;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    height: 192px;
+    width: 248px;
+    margin: 23px;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+.second img{
+    margin: 15px;
+    height: 165px;
+    border-radius: 20px;
+    width: 215px;
+}
+.third{
+    position: relative;
+    top: -560px;
+    left: 300px;
+    background-color: rgb(247, 120, 41);
+    width: 250px;
+    height: 530px;
+    border-radius: 20px;
+
+}
+.third img{
+    height: 500px;
+    position: relative;
+    top: 30px;
+    right: 160px;
+}
+.content{
+    /* background-color: gray; */
+    width: 830px;
+    display: inline;   
+
+    padding-left: 150px;
+    
+}
+.task{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    justify-content: right;
+    position: relative;
+    height: 30px;
+    top:80px ;
+    left: -50px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+.task:hover{
+    cursor: pointer;
+
+}
+.para2{
+    color: black;
+    font-size: 80px;
+    position: relative;
+    top: 100px;
+    left: -50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.para2 span{
+    color:  rgb(247, 120, 41);
+}
+.para3{
+    display: block;
+    position: relative;
+    top: 120px;
+    left: -50px;
+    padding: 5px;
+    width: 600px;
+}
+.button3{
+    background-color: rgb(247, 120, 41);
+    border:1px solid black;
+    position:relative;
+    top: 150px;
+    left: -70px;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    width: 120px;
+    color: white;
+ }
+ .button3:hover{
+        cursor: pointer;
+ }
+ .button4{
+    color: black;
+    position: relative;
+    top: 87px;
+    width: 120px;
+    padding: 10px;
+    left: 120px;
+    font-size: 20px;
+    /* font-weight: bold; */
+ }
+ .button4:hover{
+    cursor: pointer;
+
+ }
